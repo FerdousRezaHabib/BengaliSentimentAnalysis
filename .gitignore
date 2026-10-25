@@ -1,0 +1,22 @@
+# Dataset (download from Kaggle, see README)
+data/
+*.csv
+!results/*.csv
+
+# Trained models (recreated by the notebook; BanglaBERT is 442 MB)
+models/
+*.joblib
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

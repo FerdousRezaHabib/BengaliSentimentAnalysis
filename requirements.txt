@@ -1,0 +1,12 @@
+# Tested on Google Colab (Python 3.14, T4 GPU) with matplotlib 3.11.2 and transformers 5.20.2.
+# Colab already provides most of these; the notebook's first cell installs the rest.
+numpy
+pandas
+scikit-learn
+joblib
+torch
+transformers
+matplotlib>=3.11
+shap
+lime
+captum
