@@ -59,6 +59,7 @@ The dataset isn't included in this repository. Download it from Kaggle. If you u
 ├── results/                                   # metrics per model, comparison table, negation summary (CSV / JSON)
 ├── figures/                                   # every plot from the notebook
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -101,3 +102,7 @@ This project uses the BengaliSent140 dataset. If you use the dataset, please cit
       url={https://arxiv.org/abs/2601.20129},
 }
 ```
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE). The license does not cover the BengaliSent140 dataset or the pretrained BanglaBERT model, which remain under their authors' own terms.
